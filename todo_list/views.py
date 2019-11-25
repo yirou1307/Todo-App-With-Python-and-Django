@@ -19,7 +19,6 @@ def home(request):
 
 def about(request):
     context = {'name': 'Yirou',
-               'hometown': 'Anhui, China',
                'school': 'University of Massachusetts Amherst'}
     return render(request, "about.html", context)
 
